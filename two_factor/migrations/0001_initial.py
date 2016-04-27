@@ -9,6 +9,7 @@ import django.core.validators
 class Migration(migrations.Migration):
 
     dependencies = [
+        ('account', '__latest__'),
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
     ]
 
