@@ -21,7 +21,7 @@ setup(
     ],
     dependency_links = [
         'https://github.com/altanawealth/django-otp.git#egg=django_otp-0.3.5',
-    ]
+    ],
     extras_require={
         'Call': ['twilio'],
         'SMS': ['twilio'],
